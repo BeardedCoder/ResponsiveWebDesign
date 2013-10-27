@@ -1,0 +1,62 @@
+.clear:before, .clear:after {
+	content:"";
+	display:table;
+}
+
+.clear:after {
+	clear:both;
+}
+
+.offscreen {
+	display: block;
+	width: 1px;
+	height: 1px;
+	text-indent: -9999px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.gone {
+	display: none;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+@font-face {
+	font-family: 'QuickSandLight';
+	src: url('../fonts/quicksand/quicksand_light-webfont.eot');
+	src: url('../fonts/quicksand/quicksand_light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/quicksand/quicksand_light-webfont.woff') format('woff'),
+		url('../fonts/quicksand/quicksand_light-webfont.ttf') format('truetype'),
+		url('../fonts/quicksand/quicksand_light-webfont.svg#quicksandlight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-body {
+	font-family: SinaNova, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.font-title {
+	font-family: QuickSandLight, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 20px auto 0;
+	color: #000;
+}
+
+/***************************************** Header **************************************/
