@@ -58,10 +58,6 @@ a {
 	display: none;
 }
 
-.bold {
-	font-weight: 700;
-}
-
 a:hover, a:focus {
 	text-decoration: underline;
 }

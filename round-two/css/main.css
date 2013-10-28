@@ -58,36 +58,37 @@ header nav {
 /***************************************** Sidebar **************************************/
 .sidebar {
 	width: 200px;
-	padding-right: 70px;
+	margin-right: 40px;
 	float: left;
 }
 
 .sidebar p {
-	width: 203px;
-	margin-top: 10px;
-	font-size: 1em;
+	padding-top: 10px;
 }
 
 .sidebar .name {
 	white-space: nowrap;
 }
 
-.sidebar .archive {
+.archive {
 	padding-bottom: 35px;
 }
 
-.sidebar .archive h2 {
+.archive .archive-title {
 	padding-bottom: 20px;
 	font-weight: 700;
-}
-
-.sidebar .archive-link {
-	color: #000;
 }
 
 /***************************************** Main **************************************/
 .main {
 	padding: 0 10px 20px;
+}
+
+.main {
+	max-width: 800px;
+	margin-left: 240px;
+	padding-left: 50px;
+	border-left: 1px solid #999;
 }
 
 .post {
