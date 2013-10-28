@@ -3,7 +3,7 @@
 }
 
 .font-title {
-	font-family: 'Joti One', cursive;
+	font-family: 'Fenix', cursive;
 }
 
 .font-bold {
@@ -18,7 +18,7 @@
 
 /***************************************** Header **************************************/
 header {
-	padding: 10px 0 100px;
+	padding: 10px 0 80px;
 	text-align: center;
 }	
 
@@ -47,18 +47,84 @@ header nav {
 	padding-left: 0;
 }
 
-.nav .nav-link {
-	color: #000;
-}
-
 .nav .nav-selected {
 	font-weight: 700;
 }
 
-.nav .nav-link:hover, .nav .nav-link:focus {
-	color: #38A04E;
-}
-
 .nav .nav-selected:hover {
 	color: #000;
+}
+
+/***************************************** Main **************************************/
+.main {
+	padding: 0 10px 20px;
+}
+
+.post {
+	padding: 20px 0;
+	border-top: 1px solid #999;
+}
+
+.post:first-child {
+	border-top: none;
+	padding-top: 0;
+}
+
+.post .post-header {
+	padding-bottom: 25px;
+}
+
+.post .post-header .post-title {
+	padding-top: 10px;
+	font-size: 1.5em;
+}
+
+.post .post-body p {
+	padding-bottom: 20px;
+	font-size: 1.05em;
+	line-height: 1.65em;
+}
+
+.post .post-image {
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.social {
+	padding: 5px 0;
+}
+
+.social-list {
+	padding: 15px 0 40px;
+}
+
+.social-list .social-item {
+	float: left;
+}
+
+.social-list .social-item + .social-item {
+	margin-left: 5px;
+}
+
+.social .social-link {
+	width: 24px;
+	height: 24px;
+	background: url(../images/social-sprite.png) no-repeat;
+}
+
+.social .social-pinterest {
+	background-position: 0 0;
+}
+
+.social .social-tumblr {
+	background-position: 0 -24px;
+}
+
+.social .social-twitter {
+	background-position: 0 -48px;
+}
+
+.social .social-facebook {
+	background-position: 0 -72px;
 }

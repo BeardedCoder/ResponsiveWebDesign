@@ -69,3 +69,8 @@ a:hover, a:focus {
 .link-plain:hover, .link-plain:focus {
 	text-decoration: none;
 }
+
+.link-color:hover, .link-color:focus {
+	color: #002596;
+	text-decoration: none;
+}
