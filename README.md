@@ -28,6 +28,8 @@ This round introduces media queries to hide the sidebar for sufficiently narrow 
 
 [Guidelines for Responsive Web Design](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
 
+[CSS Media Queries - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+
 ###Print
 
 [Responsive Web Design with HTML5 and CSS3](http://www.amazon.com/gp/product/1849693188/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693188&linkCode=as2&tag=shifed01-20)
