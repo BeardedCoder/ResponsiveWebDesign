@@ -44,4 +44,4 @@ This round introduces media queries to hide the sidebar for sufficiently narrow 
 
 ##License
 
-MIT
+This content is released under the [MIT License](http://opensource.org/licenses/MIT).
