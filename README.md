@@ -40,7 +40,7 @@ This round introduces media queries to hide the sidebar for sufficiently narrow 
 
 ##Resources
 
-[Am I Responsive](http://ami.responsivedesign.is/) - displays your site at different resolutinos
+[Am I Responsive](http://ami.responsivedesign.is/) - displays your site at different resolutions
 
 ##License
 
