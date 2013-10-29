@@ -1,7 +1,6 @@
 #Responsive Web Design
 
-This is responsive web design example for a simple blog layout. 
-The example accompanies a talk I gave at [Conestoga College](http://conestogac.on.ca/) on Responsive Web Design.
+This is responsive web design example for a simple blog layout. The example accompanies a talk I gave at [Conestoga College](http://conestogac.on.ca/) on Responsive Web Design.
 
 ##Project Structure
 
@@ -11,11 +10,11 @@ This is the initial mobile-first layout. It is designed without media queries in
 
 ###Round Two
 
-The addition of a sidebar is made in this round. This breaks the mobile adapting layout as the sidebar is fixed width (corrected in Round Three)
+The addition of a sidebar is made in this round. This breaks the mobile adapting layout as the sidebar is always present (corrected in Round Three).
 
 ###Round Three
 
-This round introduces media queries to hide the sidebar for sufficiently narrow devices. As well media queries are used to adjust the header font size.
+This round introduces media queries to hide the sidebar for sufficiently narrow devices. As well media queries are used to adjust font sizing and spacing in other areas.
 
 ##Further Reading
 
