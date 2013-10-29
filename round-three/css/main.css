@@ -40,7 +40,7 @@ header nav {
 
 .nav > .nav-item {
 	float: left;
-	padding-left: 90px;
+	padding-left: 60px;
 }
 
 .nav > .nav-item:first-child {
@@ -57,8 +57,9 @@ header nav {
 
 /***************************************** Sidebar **************************************/
 .sidebar {
+	display: none;
 	width: 200px;
-	margin-right: 40px;
+	margin: 0 40px 0 20px;
 	float: left;
 }
 
@@ -82,13 +83,6 @@ header nav {
 /***************************************** Main **************************************/
 .main {
 	padding: 0 10px 20px;
-}
-
-.main {
-	max-width: 800px;
-	margin-left: 240px;
-	padding-left: 50px;
-	border-left: 1px solid #999;
 }
 
 .post {
@@ -158,4 +152,50 @@ header nav {
 
 .social .social-facebook {
 	background-position: 0 -72px;
+}
+
+/***************************************** Responsive **************************************/
+@media screen and ( min-width: 780px ) {
+	
+	.logo {
+		font-size: 5em;
+	}
+
+	.nav > .nav-item {
+		padding-left: 90px;
+	}
+
+	.nav .nav-link {
+		font-size: 1.2em;
+	}
+
+	.sidebar {
+		display: block;
+	}
+
+	.main {
+		max-width: 800px;
+		margin-left: 240px;
+		padding-left: 50px;
+		border-left: 1px solid #999;
+	}
+}
+
+@media screen and ( min-width: 1080px ) {
+
+	.logo {
+		font-size: 6em;
+	}
+
+	.nav > .nav-item {
+		padding-left: 100px;
+	}
+
+	.nav .nav-link {
+		font-size: 1.3em;
+	}
+
+	.sidebar {
+		margin-left: 0;
+	}
 }
