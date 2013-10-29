@@ -38,6 +38,10 @@ This round introduces media queries to hide the sidebar for sufficiently narrow 
 
 [Responsive Web Design](http://www.amazon.com/gp/product/098444257X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=098444257X&linkCode=as2&tag=shifed01-20)
 
+##Resources
+
+[Am I Responsive](http://ami.responsivedesign.is/) - displays your site at different resolutinos
+
 ##License
 
 MIT
